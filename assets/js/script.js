@@ -299,6 +299,6 @@ function renderizarPropiedades(propiedades, idContenedor) {
 // Renderizar propiedades en index.html
 window.onload = function() {
     // Renderiza 3 propiedades en venta y alquiler
-    renderizarPropiedades(propiedades_venta.slice(0, 3), 'venta');
-    renderizarPropiedades(propiedades_alquiler.slice(0, 3), 'alquiler');
+    renderizarPropiedades(propiedades_venta, 'venta');
+    renderizarPropiedades(propiedades_alquiler, 'alquiler');
 };
