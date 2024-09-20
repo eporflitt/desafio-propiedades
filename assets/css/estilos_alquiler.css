@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f5f5f5;
@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-/* Main Section Styles */
+
 h1 {
     text-align: center;
     margin-top: 20px;
@@ -20,15 +20,15 @@ h1 {
     padding: 20px;
 }
 
-/* Grid Layout for Cards */
+
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* 3 columns of equal width */
-    grid-gap: 20px; /* Space between cards */
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 20px; 
     grid-template-areas:
         "card1 card2 card3"
         "card4 card5 card6"
-        "card7 card8 card9"; /* Defining 3 cards per row */
+        "card7 card8 card9"; 
 }
 
 .card {

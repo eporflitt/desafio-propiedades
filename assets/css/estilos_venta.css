@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f5f5f5;
@@ -6,7 +6,6 @@ body {
     padding: 0;
 }
 
-/* Main Section Styles */
 h1 {
     text-align: center;
     margin-top: 20px;
@@ -23,18 +22,18 @@ h1 {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* 3 columns, one for each card */
+    grid-template-columns: 1fr 1fr 1fr; 
     grid-template-areas:
         "card1 card2 card3"
         "card4 card5 card6"
-        "card7 card8 card9"; /* Defining 3 rows of 3 cards */
-    gap: 20px; /* Space between the cards */
-    justify-items: center; /* Centers the cards */
+        "card7 card8 card9"; 
+    gap: 20px; 
+    justify-items: center; 
 }
 
 .card {
     width: 100%;
-    max-width: 350px; /* Limiting the maximum width */
+    max-width: 350px; 
     border: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
